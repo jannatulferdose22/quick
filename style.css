@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+/* header start */
+.header{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+    border-bottom:3px solid rgb(233, 232, 232);
+    height: 50px;
+}
+.icon{
+    margin-left:40px;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin-right: 25px;
+}
+.menu a:hover{
+    color: blue;
+}
+/* header end */
+/* top part start */
+.top-part{
+    margin-top: 90px;
+}
+.top-part-content{
+    text-align: center;
+}
+.top-part-content h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.blue{
+    color:blue;
+}
+.top-part-content p{
+    margin-top: 10px;
+}
+.top-part-image{
+    text-align: center;
+    margin-top: 10px;
+}
+/* top part end */
+/* second part start */
+.second-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.wrap{
+    display: flex;
+    justify-content:center;
+}
+.highlighter h1{
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    color:rgb(224, 59, 59);
+    margin-right: 60px;
+   
+}
+.paragraph-part{
+    margin-right: 15px;
+    direction: rtl;
+    
+}
+.headline-part h1{
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: -50px;
+    color:rgb(25, 25, 70);
+}
+/* second part end */
